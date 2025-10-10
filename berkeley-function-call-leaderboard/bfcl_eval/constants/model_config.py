@@ -1974,6 +1974,18 @@ local_inference_model_map = {
         is_fc_model=True,
         underscore_to_dot=False,
     ),
+    "Agent-Ark/Toucan-Qwen2.5-7B-Instruct-v0.1-FC": ModelConfig(
+        model_name="Agent-Ark/Toucan-Qwen2.5-7B-Instruct-v0.1-FC",
+        display_name="Toucan-Qwen2.5-7B-Instruct-v0.1 (FC)",
+        url="https://huggingface.co/Agent-Ark/Toucan-Qwen2.5-7B-Instruct-v0.1",
+        org="Agent-Ark",
+        license="apache-2.0",
+        model_handler=QwenFCHandler,
+        input_price=None,
+        output_price=None,
+        is_fc_model=True,
+        underscore_to_dot=False,
+    ),
 }
 
 # Inference through third-party inference platforms for open-source models
