@@ -90,7 +90,7 @@ def run_discord_flow(flow: InstalledAppFlow):
         r = requests.post(url, 
                           data=data, 
                           headers=headers,
-                          auth=("1214447388354420736", "Io25U2nXzMDE6GgtfBqmVWbLPhv7LuoG"))
+                          auth=("foo", "bar"))
 
         print(r.json())
         return r.json()['access_token']
